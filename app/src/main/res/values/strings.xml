@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eclid1</string>
+
+    <string name="title_following">失物</string>
+    <string name="toolbar_bio">详情</string>
+    <string name="toolbar_details">Details</string>
+
+</resources>

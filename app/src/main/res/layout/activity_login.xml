@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/main_title"
+        layout="@layout/logintitle_layout" />
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@mipmap/login_logo" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+
+        <include
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="130dip"
+            layout="@layout/input_layout" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/rotate_layout_bg"
+        android:visibility="invisible"
+        android:padding="10dip"/>
+
+        <TextView
+            android:id="@+id/main_btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/text_bg"
+            android:gravity="center"
+            android:paddingBottom="2dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
